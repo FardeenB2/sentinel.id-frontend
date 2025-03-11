@@ -1,16 +1,26 @@
 import './index.css'
 import settingslogo from "./assets/settingslogo.png";
 import sentlogo from "./assets/sentlogo.png";
+import facebookLogo from "./assets/facebookLogo.png";
+import linkedin from "./assets/linkedin.png";
+import googleLogo from "./assets/googleLogo.png";
+
+
+//NOTE: import the rest of the assets and fix the img src's here.
+
+
 
 function Header() {
 
   return (
     <>
-      <img src= {settingslogo} alt="settings logo"/>
+      <div class="uppersection">
+      <img src= {settingslogo} alt="settings logo" id="settingslogo"/>
+      </div>
 
       <div className="titleBlock">
-        <img src= {sentlogo} alt="sentinel logo"/>
-        <h1> Sentinel.ID </h1>
+        <img src= {sentlogo} alt="sentinel logo" id="sentlogo"/>
+        <h1 className="title"> Sentinel.ID </h1>
       </div>
 
       <div className = "inputs">
@@ -19,23 +29,29 @@ function Header() {
       </div>
 
       <div className = "memory">
-        <input type="checkbox" id="rememberMe"/>
-        <label for="rememberMe"> Remember Me</label>
-        <a href = "index.html"> Forgot Password?</a>
+        <div className = "remember">
+          <input type="checkbox" id="rememberMeBOX"/>
+          <label for="rememberMe" id="rememberMe"> Remember Me</label>
+        </div>
+          <a href = "index.html" id="forgotPass"> Forgot Password?</a>
       </div>
 
-      <button type="button"> Log in</button>
 
-      <p className="orLoginWith"> Or log in with:</p><br></br>
+      <div className = "log">
 
-      <div className ="loginOptions"> 
-        <img src= "/assets/facebookLogo.png" alt="facebook logo"></img>
-        <img src= "/assets/linkedin.png" alt="linkedin logo"></img>
-        <img src= "/assets/googleLogo.png" alt="google logo"></img>
+        <button type="button" id="logbutton"> Log in</button>
+        <p className="orLoginWith"> Or log in with:</p><br></br>
+
+        <div className ="loginOptions"> 
+          <img src= {facebookLogo} alt="facebook logo"></img>
+          <img src= {linkedin} alt="linkedin logo"></img>
+          <img src= {googleLogo} alt="google logo"></img>
+        </div>
+
       </div>
 
       <p className="newUser">New User?</p>
-      <a href = "index.html">Sign up for free</a>
+      <a href = "index.html" id="signup">Sign up for free</a>
 
 
 

@@ -1,9 +1,122 @@
+* {
+  background-color: rgb(13, 0, 33);
+  box-sizing: border-box;
+
+}
+
+.uppersection {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 .titleBlock {
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100px;
+
 }
 
+#sentlogo {
+  max-width: 100px;
+  margin-left: -80px;
+}
 
+.title {
+  color: rgb(66, 223, 255);
+}
+
+.inputs {
+  display: block;
+
+}
+
+#usernameInputBox {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 22px;
+  margin-bottom: 5px;
+  background-color: rgb(238, 238, 238);
+  border-color: rgb(238, 238, 238);
+}
+
+#passwordInputBox {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 22px;
+  background-color: rgb(238, 238, 238);
+  border-color: rgb(238, 238, 238);
+}
+
+.memory {
+  display: flex;
+  box-sizing: content-box;
+  justify-content: center;
+  margin: 40px;
+
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  gap: 40px;
+}
+
+#rememberMe {
+  color:rgb(66, 223, 255);
+}
+
+#forgotPass {
+  text-decoration: none;
+  color:blueviolet;
+}
+
+.log {
+  display: block;
+  text-align: center;
+}
+
+#logbutton {
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color:rgb(66, 223, 255);
+  border-color: rgb(44, 82, 231);
+  color:rgb(44, 82, 231);
+  font-weight: bold;
+}
+
+.orLoginWith {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: rgb(66, 223, 255);
+}
+
+.loginOptions {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.newUser {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 95px;
+  margin-top: 60px;
+  color: rgb(66, 223, 255);
+}
+
+#signup {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 80px;
+  text-decoration: none;
+  color:blueviolet;
+}
