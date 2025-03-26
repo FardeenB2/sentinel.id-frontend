@@ -1,0 +1,27 @@
+.titleBlockfpw {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    height: 100px;
+  
+  }
+
+.prompt {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    color:rgb(68, 68, 244);
+    margin-top: 0px;
+}
+
+#goBack {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 95px;
+    text-decoration: none;
+    color:blueviolet;
+  }
