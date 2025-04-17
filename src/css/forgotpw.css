@@ -4,9 +4,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-
     height: 100px;
-  
+
   }
 
 .prompt {
@@ -15,6 +14,8 @@
     font-size: 23px;
     color:rgb(68, 68, 244);
     margin-top: 0px;
+    margin-bottom: 30px;
+
 }
 
 #goBack {
@@ -24,4 +25,5 @@
     right: 95px;
     text-decoration: none;
     color:blueviolet;
+    margin-top: 20px;
   }

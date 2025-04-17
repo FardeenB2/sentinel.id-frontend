@@ -1,7 +1,18 @@
 * {
-  background-color: rgb(13, 0, 33);
+  /*background-color: rgb(13, 0, 33);*/
   box-sizing: border-box;
+  margin: 0;
 
+}
+
+.headerbody {
+  background-image: linear-gradient(rgb(58, 26, 122), rgb(22, 22, 136));
+  
+}
+
+.body {
+  background-image: linear-gradient(rgb(22, 22, 136), black);
+  height: 100vh;
 }
 
 .uppersection {
@@ -17,7 +28,7 @@
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   height: 100px;
 
 }

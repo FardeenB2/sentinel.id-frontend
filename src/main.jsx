@@ -1,8 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './login.css'
-import './register.css'
-import './forgotpw.css'
+import './pages/login.jsx'
+import './pages/register.jsx'
+import './pages/forgotpw.jsx'
+import './pages/settings.jsx'
+import './css/forgotpw.css'
+import './css/login.css'
+import './css/register.css'
+
 
 import App from './app.jsx'
 
