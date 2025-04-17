@@ -17,7 +17,7 @@ function App() {
 
         <Header />  
 
-        <div className="body">
+        <div className="sidesbody">
           <Routes> 
 
             <Route path="/" element={<Login />} />

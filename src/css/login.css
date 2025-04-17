@@ -5,42 +5,58 @@
 
 }
 
-.headerbody {
-  background-image: linear-gradient(rgb(58, 26, 122), rgb(22, 22, 136));
-  
-}
+
 
 .body {
   background-image: linear-gradient(rgb(22, 22, 136), black);
   height: 100vh;
+  max-width: 750px;
+  margin: auto;
 }
 
-.uppersection {
-  display: flex;
-  justify-content: flex-end;
+.sidesbody {
+  background-image: linear-gradient(rgb(19, 19, 51), rgb(0, 0, 0));
+
+
+
+}
+
+.techsidebody{
+  background-image: url('../assets/techside.png');
+  width: auto;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+
+
+
+}
+
+.centercircuitbg {
+  background-image: url('../assets/centercircuit.png');
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+
+  
+  
+
+
 }
 
 
-.titleBlock {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  height: 100px;
 
-}
+
+
+
 
 #sentlogo {
   max-width: 100px;
   margin-left: -80px;
 }
 
-.title {
-  color: rgb(66, 223, 255);
-}
+
 
 .inputs {
   display: block;
@@ -131,3 +147,5 @@
   text-decoration: none;
   color:blueviolet;
 }
+
+

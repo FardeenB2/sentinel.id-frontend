@@ -7,6 +7,7 @@ import './pages/settings.jsx'
 import './css/forgotpw.css'
 import './css/login.css'
 import './css/register.css'
+import './css/header.css'
 
 
 import App from './app.jsx'

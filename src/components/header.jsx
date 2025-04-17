@@ -8,19 +8,21 @@ function Header() {
   return (
     <>
 
-     <div className="headerbody">
-        <div className="uppersection">
+    <div className="sidesheader">
+      <div className="headerbody">
+          <div className="uppersection">
 
-        <Link to="/Settings">
-          <img src= {settingslogo} alt="settings logo" id="settingslogo"/>
-        </Link>
-        </div>
-
-        <div className="titleBlock">
-          <Link to="/">
-            <img src= {sentlogo} alt="sentinel logo" id="sentlogo"/>
+          <Link to="/Settings">
+            <img src= {settingslogo} alt="settings logo" id="settingslogo"/>
           </Link>
-          <h1 className="title"> Sentinel.ID </h1>
+          </div>
+
+          <div className="titleBlock">
+            <Link to="/">
+              <img src= {sentlogo} alt="sentinel logo" id="sentlogo"/>
+            </Link>
+            <h1 className="title"> Sentinel.ID </h1>
+          </div>
         </div>
       </div>
 

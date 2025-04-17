@@ -1,0 +1,34 @@
+.headerbody {
+    background-image: linear-gradient(rgb(58, 26, 122), rgb(22, 22, 136));
+    max-width: 750px;
+    margin: auto;
+    
+  }
+
+.sidesheader{
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(19, 19, 51));
+
+
+
+}
+
+.uppersection {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.titleBlock {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 100px;
+  
+  }
+
+.title {
+    color: rgb(66, 223, 255);
+  }
