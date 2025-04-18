@@ -1,16 +1,15 @@
 .headerbody {
-    background-image: linear-gradient(rgb(58, 26, 122), rgb(22, 22, 136));
+    background-image: linear-gradient(rgb(50, 37, 128), rgb(22, 22, 136));
     max-width: 750px;
     margin: auto;
     
   }
 
 .sidesheader{
-  background-image: linear-gradient(rgb(0, 0, 0), rgb(19, 19, 51));
-
-
-
+  background-image: linear-gradient(rgb(50, 37, 128), rgb(19, 19, 51));
 }
+
+
 
 .uppersection {
     display: flex;

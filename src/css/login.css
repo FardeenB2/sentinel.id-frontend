@@ -2,6 +2,7 @@
   /*background-color: rgb(13, 0, 33);*/
   box-sizing: border-box;
   margin: 0;
+  overscroll-behavior: none;
 
 }
 
@@ -12,24 +13,52 @@
   height: 100vh;
   max-width: 750px;
   margin: auto;
+  z-index: 999;
 }
 
 .sidesbody {
   background-image: linear-gradient(rgb(19, 19, 51), rgb(0, 0, 0));
 
+}
 
+.techbodyparent{
+  display: flex;
+  pointer-events: none;
 
 }
 
-.techsidebody{
+.techsidebodyleft{
   background-image: url('../assets/techside.png');
-  width: auto;
+  width: 100%;
   background-repeat: repeat-y;
   background-attachment: fixed;
+  height: 100vh;
+  position: absolute;
+  pointer-events: none;
+  
+
+
+}
+
+.techsidebodyright {
+  background-image: url('../assets/techsideright.png');
+  width: 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: right;
+  height: 100vh;
+  position: absolute;
+  pointer-events: none;
+
+
+
+
 
 
 
 }
+
+
 
 .centercircuitbg {
   background-image: url('../assets/centercircuit.png');
@@ -71,6 +100,7 @@
   margin-bottom: 5px;
   background-color: rgb(238, 238, 238);
   border-color: rgb(238, 238, 238);
+  
 }
 
 #passwordInputBox {

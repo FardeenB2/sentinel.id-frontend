@@ -11,7 +11,11 @@ function Login() {
     return (
     <>
 
-        <div className="techsidebody">
+        <div className="techbodyparent">
+            <div className="techsidebodyleft"> </div>
+            <div className="techsidebodyright"> </div>
+        </div>
+
         <div className="body">
             <div className = "centercircuitbg">           
                 
@@ -49,7 +53,7 @@ function Login() {
                 </div>
             </div>
         </div>
-        </div>
+   
 
 
 
