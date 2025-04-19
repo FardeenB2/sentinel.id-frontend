@@ -13,7 +13,7 @@
   height: 100vh;
   max-width: 750px;
   margin: auto;
-  z-index: 999;
+  z-index: 0;
 }
 
 .sidesbody {
@@ -59,23 +59,39 @@
 }
 
 
-
 .centercircuitbg {
+  position: relative;
+  /*position is a property where: relative means you are positioning the element relative to itself. absolute is
+  where you are positioning the element relative to the closest container that has its position defined. absolute is used for child or pseudo containers.*/
+  /*if you have position:absolute and no position:relative in any container, the position::absolute container will position itself relative
+  to the DOM, aka the whole screen*/
+
+}
+
+.centercircuitbg::before {
+  content:"";       /*always required for pseudo-elements*/
   background-image: url('../assets/centercircuit.png');
   background-repeat: no-repeat;
-  width: auto;
+  width: 100%;
   height: 100vh;
   background-position: center;
   background-attachment: fixed;
-
-  
-  
+  position: absolute; /*relative to .centercircuitbg's position. */
+  top: 0px;       /*These are needed. to cover the entire centercircuitbg image*/
+  bottom:0px;
+  right: 0px;
+  left: 0px;
+  opacity: 0.5;
+  z-index: 1;
+  pointer-events: none;
 
 
 }
 
-
-
+.content {
+  position: relative;
+  z-index: 2;
+}
 
 
 
@@ -110,6 +126,8 @@
   height: 22px;
   background-color: rgb(238, 238, 238);
   border-color: rgb(238, 238, 238);
+  z-index: 1;
+
 }
 
 .memory {
