@@ -34,15 +34,19 @@
     right: 60px;
     margin-top: 60px;
     color: rgb(66, 223, 255);
+    font-weight: bold;
+
   }
 
   #loginhere {
     display: flex;
     justify-content: center;
     position: relative;
-    right: 80px;
+    right: 83px;
     text-decoration: none;
-    color:blueviolet;
+    color:rgb(223, 190, 255);
+    font-weight: bold;
+
   }
   
   

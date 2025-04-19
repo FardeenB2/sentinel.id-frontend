@@ -2,6 +2,9 @@
     background-image: linear-gradient(rgb(50, 37, 128), rgb(22, 22, 136));
     max-width: 750px;
     margin: auto;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     
   }
 
