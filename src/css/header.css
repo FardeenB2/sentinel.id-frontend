@@ -12,6 +12,12 @@
   background-image: linear-gradient(rgb(50, 37, 128), rgb(19, 19, 51));
 }
 
+#sentlogo {
+  width: 50px;
+  height: 65px;
+  margin: 0px;
+}
+
 #settingslogo:hover {
   opacity: 0.7;
 }

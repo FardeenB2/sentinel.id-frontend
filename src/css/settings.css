@@ -1,0 +1,66 @@
+.settingsContent {
+    font-family: "Play", sans-serif;
+}
+
+.settingsTopNav {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+#settingssentlogo {
+    width: 40px;
+    height: 50px;
+    margin: 15px;
+}
+
+#settingssentlogo:hover {
+    opacity: 0.7;
+}
+
+
+#SettingsHeaderTitle {
+    display: flex;
+    align-items: center;
+    color: rgb(66, 223, 255);
+    background: -webkit-linear-gradient(rgb(224, 246, 255),rgb(0, 213, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+.settingsSecondNav {
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 17px;
+}
+
+
+
+
+.settingvr1 {
+    width: 1px;
+    margin-top: -3px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 15%;
+
+}
+
+.settinghr1 {
+    text-align: center;
+    border: 1px solid rgb(117, 117, 117);
+    margin-top: 5px;
+    border-radius: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.settingsSecondNavExpanded {
+    height: 100vh;
+}
+
+
+

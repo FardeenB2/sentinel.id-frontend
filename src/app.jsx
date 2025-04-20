@@ -9,25 +9,54 @@ import Settings from "./pages/settings.jsx";
 //Header will appear in all places as it is outside <Routes>
 //need to have a default "/" route
 
+
+function WithHeader({children}) {
+  return (
+  <>
+    <Header />  
+    <div className="sidesbody">
+      {children}
+    </div>
+  
+  </>
+
+  )
+
+}
+
+function WithoutHeader({children}) {
+  return (
+    <>
+
+    <div className="sidesbody">
+      {children}
+    </div>
+
+
+    </>
+  )
+
+}
+
+
+
 function App() {
   return (
   <>
 
       <BrowserRouter>
-
-        <Header />  
     
-        <div className="sidesbody">
           <Routes> 
 
-            <Route path="/" element={<Login />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/forgotpw" element={<Forgotpw />} />
-            <Route path="/settings" element={<Settings />} />
+            <Route path="/" element={<WithHeader> <Login /> </WithHeader>}  />
+
+            <Route path="/login" element={<WithHeader> <Login /> </WithHeader>} />
+            <Route path="/register" element={<WithHeader> <Register /> </WithHeader>} />
+            <Route path="/forgotpw" element={<WithHeader> <Forgotpw /> </WithHeader>} />
+            <Route path="/settings" element={<WithoutHeader> <Settings /> </WithoutHeader>} />
+
           </Routes>    
 
-        </div>
  
       </BrowserRouter>
 
