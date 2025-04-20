@@ -9,6 +9,7 @@ import './css/login.css'
 import './css/register.css'
 import './css/header.css'
 import './css/settings.css'
+import './css/presets.css'
 
 
 import App from './app.jsx'

@@ -58,7 +58,11 @@
 
 }
 
-.settingsSecondNavExpanded {
+.usersExpanded {
+    height: 100vh;
+}
+
+.presetsExpanded {
     height: 100vh;
 }
 

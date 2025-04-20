@@ -1,22 +1,16 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import settingssentlogo from "../assets/sentlogo.png";
+import Presets from "../components/presets.jsx";
+import Users from "../components/users.jsx";
+
+
 
 
 
 function Settings() {
 
-    const [menuToggle, setMenuToggle] = useState(false);    //by nature of useState, setMenuToggle is the function that affects menuToggle variable (which is originally set to false)
-
-    const shiftMenuToggle=()=>{                         //We must make another function that calls the above function and utilizes the variable in some way. Then we can call this function outside.
-        setMenuToggle(!menuToggle);
-    }
-
     const [highlightActive, setHighlightActive] = useState('users');
-
-
-        
-    
 
 
 
@@ -33,13 +27,12 @@ function Settings() {
             <ul className = "settingsSecondNav">
                 <li 
                     style={{
-                        color: highlightActive == 'users'? 'rgb(117, 117, 117)' : 'rgb(170, 170, 170)',
+                        color: highlightActive === 'users'? 'rgb(232, 186, 255)' : 'rgb(170, 170, 170)',
                         cursor: 'pointer',
-                        textDecoration: highlightActive == 'users'? 'overline' : 'none'
+                        textDecoration: highlightActive === 'users'? 'overline' : 'none'
                     }}
 
                     onClick = {() => {
-                        shiftMenuToggle();
                         setHighlightActive('users'); 
                     }}
                 > 
@@ -48,12 +41,11 @@ function Settings() {
 
                 <li 
                     style={{
-                        color: highlightActive == 'presets'? 'rgb(117, 117, 117)' : 'rgb(170, 170, 170)',
+                        color: highlightActive === 'presets'? 'rgb(232, 186, 255)' : 'rgb(170, 170, 170)',
                         cursor: 'pointer',
-                        textDecoration: highlightActive == 'presets'? 'overline' : 'none'
+                        textDecoration: highlightActive === 'presets'? 'overline' : 'none'
                     }}
                     onClick = {() => {
-                        shiftMenuToggle();
                         setHighlightActive('presets'); 
                     }}
                 > 
@@ -67,8 +59,10 @@ function Settings() {
 
             <hr className="settinghr1"></hr>
 
-            <div className={highlightActive?"settingsSecondNavExpanded" : "settingsSecondNav"}>   {/*if the menuToggle is true, we use the expanded SecondNav class, otherwise just the regular secondNav class*/}
-
+            <div className={highlightActive === 'presets'? "presetsExpanded" : "usersExpanded"}>   {/*if the highlightActive is true, we use the expanded SecondNav class, otherwise just the regular secondNav class*/}
+                {highlightActive === 'users' && <Users />}
+                {highlightActive === 'presets' && <Presets />}
+                    
             </div>
 
         </div>

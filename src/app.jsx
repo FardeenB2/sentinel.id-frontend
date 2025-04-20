@@ -5,6 +5,9 @@ import Login from "./pages/login.jsx";
 import Register from "./pages/register.jsx";
 import Forgotpw from "./pages/forgotpw.jsx";
 import Settings from "./pages/settings.jsx";
+import Presets from "./components/presets.jsx";
+import Users from "./components/users.jsx";
+
 
 //Header will appear in all places as it is outside <Routes>
 //need to have a default "/" route
