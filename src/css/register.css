@@ -12,6 +12,11 @@
     background-color: rgb(238, 238, 238);
     border-color: rgb(238, 238, 238);
   }
+
+#newpwbox:hover {
+  background-color:rgb(209, 225, 255);
+
+}
   
   #confirmpwbox {
     display: block;
@@ -20,6 +25,11 @@
     height: 22px;
     background-color: rgb(238, 238, 238);
     border-color: rgb(238, 238, 238);
+  }
+
+  #confirmpwbox:hover {
+    background-color:rgb(209, 225, 255);
+
   }
 
   .register {
@@ -47,6 +57,10 @@
     color:rgb(223, 190, 255);
     font-weight: bold;
 
+  }
+
+  #loginhere:hover {
+    color:rgb(247, 173, 75);
   }
   
   

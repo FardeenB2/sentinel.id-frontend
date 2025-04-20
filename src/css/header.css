@@ -12,6 +12,14 @@
   background-image: linear-gradient(rgb(50, 37, 128), rgb(19, 19, 51));
 }
 
+#settingslogo:hover {
+  opacity: 0.7;
+}
+
+#sentlogo:hover {
+  opacity: 0.7;
+
+}
 
 
 .uppersection {
@@ -33,4 +41,8 @@
 
 .title {
     color: rgb(66, 223, 255);
+    background: -webkit-linear-gradient(rgb(224, 246, 255),rgb(0, 213, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
   }

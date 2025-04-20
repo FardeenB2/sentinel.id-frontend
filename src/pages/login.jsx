@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 
 function Login() {
 
+
+
     return (
     <>
 
@@ -25,7 +27,7 @@ function Login() {
 
                     <div className = "inputs">
                         <input id="usernameInputBox" placeholder="Username/Email Address"/>  
-                        <input id="passwordInputBox" placeholder="Password"/>
+                        <input type ="password" id="passwordInputBox" placeholder="password"/>
                     </div>
 
 
@@ -46,9 +48,9 @@ function Login() {
                             <p className="orLoginWith"> Or log in with:</p><br></br>
 
                             <div className ="loginOptions"> 
-                            <img src= {facebookLogo} alt="facebook logo"></img>
-                            <img src= {linkedin} alt="linkedin logo"></img>
-                            <img src= {googleLogo} alt="google logo"></img>
+                            <img src= {facebookLogo} alt="facebook logo" className="smlogos"></img>
+                            <img src= {linkedin} alt="linkedin logo" className="smlogos"></img>
+                            <img src= {googleLogo} alt="google logo" className="smlogos"></img>
                             </div>
 
                     <p className="newUser">New User?</p>

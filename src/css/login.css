@@ -40,10 +40,25 @@
   height: 100vh;
   position: absolute;
   pointer-events: none;
-  
-
-
+  animation: fade 4s infinite;
 }
+
+@keyframes fade {
+  0% {opacity: 1;}
+  10% {opacity: 0.9;}
+  20% {opacity: 0.8;}
+  30% {opacity: 0.7;}
+  40%{opacity: 0.6;}
+  50%{opacity: 0.5;}
+  53%{opacity: 0.4;}
+  58%{opacity: 0.5;}
+  60%{opacity: 0.6;}
+  70%{opacity: 0.7;}
+  80%{opacity: 0.8;}
+  90%{opacity: 0.9;}
+  100%{opacity: 1;}
+}
+
 
 .techsidebodyright {
   background-image: url('../assets/techsideright.png');
@@ -54,6 +69,8 @@
   height: 100vh;
   position: absolute;
   pointer-events: none;
+  animation: fade 4s infinite;
+
 
 
 
@@ -70,6 +87,7 @@
   where you are positioning the element relative to the closest container that has its position defined. absolute is used for child or pseudo containers.*/
   /*if you have position:absolute and no position:relative in any container, the position::absolute container will position itself relative
   to the DOM, aka the whole screen*/
+
 
 }
 
@@ -91,7 +109,10 @@
   pointer-events: none;
 
 
+
 }
+
+
 
 .content {
   position: relative;
@@ -122,7 +143,14 @@
   background-color: rgb(238, 238, 238);
   border-color: rgb(238, 238, 238);
   
+  
 }
+
+#usernameInputBox:hover {
+  background-color:rgb(209, 225, 255);
+
+}
+
 
 #passwordInputBox {
   display: block;
@@ -134,6 +162,12 @@
   z-index: 1;
 
 }
+
+#passwordInputBox:hover {
+  background-color:rgb(209, 225, 255);
+
+}
+
 
 .memory {
   display: flex;
@@ -150,8 +184,13 @@
 #rememberMe {
   color:rgb(66, 223, 255);
   font-weight: bold;
-
+  
 }
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
 
 #forgotPass {
   text-decoration: none;
@@ -159,6 +198,12 @@
   font-weight: bold;
 
 }
+
+#forgotPass:hover {
+  color:rgb(247, 173, 75);
+
+}
+
 
 .log {
   display: block;
@@ -174,6 +219,13 @@
 
   color:rgb(255, 255, 255);
   font-weight: bold;
+
+}
+
+#logbutton:hover {
+  background-image: linear-gradient(rgb(195, 127, 255), rgb(117, 212, 244));
+  cursor:pointer;
+
 }
 
 .orLoginWith {
@@ -188,7 +240,15 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+  
 }
+
+.smlogos:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+
 
 .newUser {
   display: flex;
@@ -210,5 +270,11 @@
   color:rgb(223, 190, 255);
   font-weight: bold;
 }
+
+#signup:hover {
+  color:rgb(247, 173, 75);
+
+}
+
 
 

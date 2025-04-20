@@ -20,8 +20,8 @@ function Register() {
                     </div>
 
                     <div className = "newinputs">
-                        <input id="newpwbox" placeholder="New Password"/>
-                        <input id="confirmpwbox" placeholder="Confirm Password"/>
+                        <input type ="password" id="newpwbox" placeholder="New Password"/>
+                        <input type ="password" id="confirmpwbox" placeholder="Confirm Password"/>
                     </div>
 
                     <div className = "memory">
