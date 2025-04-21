@@ -3,10 +3,12 @@
     margin: auto;
     margin-top: 100px;
     width: 70%;
-    height: 90%;
+    height: 70%;
     border-radius: 1%;
     box-shadow: 20px 15px 15px rgb(33, 31, 46);
     display: flex;
+    box-sizing: border-box;
+
 
 }
 
@@ -16,9 +18,96 @@
     border-radius: 1%;
     border-style: double;
     border-color: rgb(66, 66, 66);
+    display: block;
 
 }
 
+#preseticon {
+    width: 8%;
+    margin-left: 10px;
+}
+
+
+#EmailAddressConfirmation {
+    margin-left: 8%;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    list-style: none;
+
+}
+
+#PasswordReset {
+    margin-left: 8%;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    list-style: none;
+
+
+}
+
+#SwitchEmailAddress {
+    margin-left: 8%;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    list-style: none;
+
+
+}
+#MultiFactorAuthentication {
+    margin-left: 8%;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    list-style: none;
+
+
+}
+#MobileVerification {
+    margin-left: 8%;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    list-style: none;
+
+
+
+}
+
+.flexleft {
+    display: flex;
+    height: 4em;
+    align-items: center;
+    width: 100%;
+    
+
+    
+}
+
+.flexleft:hover {
+    background-color: rgb(146, 222, 255);
+    cursor: pointer;
+}
+
+.flexleft:hover #preseticon {
+    filter: brightness(0.5) sepia(100%) hue-rotate(230deg);      /*turn white image to black first since white contains all colors*/
+
+
+}
+
+
+.flexleft:hover #EmailAddressConfirmation,
+.flexleft:hover #PasswordReset,
+.flexleft:hover #SwitchEmailAddress, 
+.flexleft:hover #MultiFactorAuthentication,
+.flexleft:hover #MobileVerification  {
+    color:rgb(46, 46, 156);
+}
+
+
+
 .PresetsRight {
+    background-color: rgb(39, 39, 39);
+    width: 65%;
+    border-radius: 1%;
+    border-style: double;
+    border-color: rgb(66, 66, 66);
 
 }

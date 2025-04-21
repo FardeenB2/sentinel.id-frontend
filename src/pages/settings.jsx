@@ -25,7 +25,7 @@ function Settings() {
             </div>
 
             <ul className = "settingsSecondNav">
-                <li 
+                <li className="usersTab" 
                     style={{
                         color: highlightActive === 'users'? 'rgb(232, 186, 255)' : 'rgb(170, 170, 170)',
                         cursor: 'pointer',
@@ -39,7 +39,7 @@ function Settings() {
                     Users 
                 </li>
 
-                <li 
+                <li className="presetTab"
                     style={{
                         color: highlightActive === 'presets'? 'rgb(232, 186, 255)' : 'rgb(170, 170, 170)',
                         cursor: 'pointer',

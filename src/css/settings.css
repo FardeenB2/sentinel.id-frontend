@@ -58,6 +58,19 @@
 
 }
 
+.usersTab:hover {
+    color:rgb(232, 186, 255);
+    text-decoration: overline;
+}
+
+.presetTab:hover {
+    color:rgb(232, 186, 255);
+    text-decoration: overline; 
+}
+
+
+
+
 .usersExpanded {
     height: 100vh;
 }
