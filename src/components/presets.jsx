@@ -6,6 +6,11 @@ import sendicon from "../assets/send.svg";
 import emailicon from "../assets/email.svg";
 import mfaicon from "../assets/mfa.svg";
 
+import EmailAddressConfirmationRight from "./EACright";
+import PasswordResetRight from "./PRright";
+import SwitchEmailAddressRight from "./SWAright";
+import MultiFactorAuthenticationRight from "./MFAright";
+import MobileVerificationRight from "./MVright";
 
 
 
@@ -13,8 +18,6 @@ import mfaicon from "../assets/mfa.svg";
 function Presets() {
 
     const [toggle, setToggle] = useState('emailAddressConfirm');
-
-
 
 
     return (
@@ -171,7 +174,11 @@ function Presets() {
 
 
             <div className = "PresetsRight">
-                
+                {toggle === 'emailAddressConfirm' && <EmailAddressConfirmationRight />}
+                {toggle === 'passwordReset' && <PasswordResetRight />}
+                {toggle === 'switchEmailAddress' && <SwitchEmailAddressRight />}
+                {toggle === 'mfa' && <MultiFactorAuthenticationRight />}
+                {toggle === 'mobileVerify' && <MobileVerificationRight />}
             </div>
 
         </div>
@@ -183,8 +190,6 @@ function Presets() {
     </>
 
     )
-
-
 }
 
 export default Presets

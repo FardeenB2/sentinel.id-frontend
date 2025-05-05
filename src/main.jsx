@@ -10,6 +10,7 @@ import './css/register.css'
 import './css/header.css'
 import './css/settings.css'
 import './css/presets.css'
+import './css/EACright.css'
 
 
 import App from './app.jsx'

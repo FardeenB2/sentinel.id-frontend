@@ -1,0 +1,22 @@
+.EAChead {
+    font-size: 15px;
+    color:rgb(189, 189, 189);
+    text-align: center;
+}
+
+.EACheadinside {
+    color:rgb(95, 95, 95);
+    font-size: 15px;
+    margin: 5px;
+}
+
+.EAChr1 {
+    border: 1px solid rgb(117, 117, 117);
+    margin: 10px;
+}
+
+.EACmessage {
+    
+    color:rgb(95, 95, 95);
+    margin: 10px;
+}
