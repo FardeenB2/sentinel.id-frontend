@@ -36,7 +36,7 @@ function Settings() {
                         setHighlightActive('users'); 
                     }}
                 > 
-                    Users 
+                    Authorized Users 
                 </li>
 
                 <li className="presetTab"
@@ -49,7 +49,7 @@ function Settings() {
                         setHighlightActive('presets'); 
                     }}
                 > 
-                    Presets 
+                    Authentication Presets 
                 </li>                
                 <li className="settingvr1"></li>
 

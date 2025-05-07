@@ -42,7 +42,7 @@ function Login() {
 
                     <div className = "log">
 
-                        <Link to= "/login">
+                        <Link to= "/Success">
                         <button type="button" id="logbutton"> Log-In </button> 
                         </Link> 
                             <p className="orLoginWith"> Or log in with:</p><br></br>

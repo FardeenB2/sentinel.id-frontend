@@ -1,4 +1,59 @@
-.overallUsersTemplate {
-    background-color: white;
-    margin: 50px;
+
+#appName{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    color:rgb(135, 124, 255);
+
 }
+
+.userz {
+    border: 1px solid rgb(225, 251, 255);
+    padding: 2%;
+}
+
+.userzz {
+    border: 1px solid rgb(225, 251, 255);
+    padding: 2%;
+}
+
+.userzz:hover {
+    border: 1px solid rgb(142, 240, 255);
+    background-color: rgb(81, 81, 81);
+
+}
+
+.overallUsersTemplate {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    margin: 5%;
+    margin-bottom: 0;
+    padding: 1%;
+    border: 1px solid rgb(117, 117, 117);
+}
+
+.AddedUsersTemplate {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 1%;
+    border: 1px solid rgb(117, 117, 117);
+}
+
+.appUserStatusButton {
+    border: 1px solid rgb(225, 251, 255);
+    padding: 2%;
+}
+
+.appUserStatusButton:hover {
+    border: 1px solid rgb(255, 185, 92);
+    background-color: rgb(81, 81, 81);
+    cursor: pointer;
+}
+

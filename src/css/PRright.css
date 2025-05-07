@@ -1,0 +1,33 @@
+.PRhead {
+    font-size: 15px;
+    color:rgb(189, 189, 189);
+    text-align: center;
+    margin: 20px;
+}
+
+.PRhr1 {
+    border: 1px solid rgb(117, 117, 117);
+    margin: 10px;
+}
+
+.PRmessage {
+    
+    color:rgb(163, 162, 162);
+    margin: 10px;
+}
+
+#PRrightusernameInputBox {
+    margin-top: 20px;
+    width:40%;
+}
+
+#PRrightlogbutton {
+    margin-top: 10px;
+    color: rgb(117, 117, 117);
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 2px;
+
+
+}

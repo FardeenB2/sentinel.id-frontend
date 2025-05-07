@@ -5,6 +5,7 @@ import Login from "./pages/login.jsx";
 import Register from "./pages/register.jsx";
 import Forgotpw from "./pages/forgotpw.jsx";
 import Settings from "./pages/settings.jsx";
+import Success from "./pages/success.jsx";
 //import Presets from "./components/presets.jsx";
 //import Users from "./components/users.jsx";
 
@@ -58,6 +59,8 @@ function App() {
             <Route path="/register" element={<WithHeader> <Register /> </WithHeader>} />
             <Route path="/forgotpw" element={<WithHeader> <Forgotpw /> </WithHeader>} />
             <Route path="/settings" element={<WithoutHeader> <Settings /> </WithoutHeader>} />
+            <Route path="/Success" element={<WithHeader> <Success /> </WithHeader>} />
+
 
           </Routes>    
 

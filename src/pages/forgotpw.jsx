@@ -27,7 +27,7 @@ function Forgotpw() {
 
 
               <div className = "inputs">
-                  <input id="usernameInputBox" placeholder="New Username/Email Address"/>  
+                  <input id="usernameInputBox" placeholder="Username/Email Address"/>  
               </div>
 
 

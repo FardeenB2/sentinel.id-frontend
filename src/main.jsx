@@ -11,6 +11,11 @@ import './css/header.css'
 import './css/settings.css'
 import './css/presets.css'
 import './css/EACright.css'
+import './css/PRright.css'
+import './css/SWAright.css'
+import './css/users.css'
+
+
 
 
 import App from './app.jsx'

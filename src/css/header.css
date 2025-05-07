@@ -52,3 +52,11 @@
     -webkit-text-fill-color: transparent;
 
   }
+
+  .titleSuccess {
+    color: rgb(255, 161, 66);
+    background: -webkit-linear-gradient(rgb(255, 143, 45),rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }

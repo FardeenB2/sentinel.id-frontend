@@ -6,7 +6,7 @@ function MobileVerificationRight () {
     return (
     <>
         <div className = "MobileVerificationRight">
-            <h1>efre</h1>
+            <h1>You must be logged-in first to access this feature</h1>
 
 
         </div>

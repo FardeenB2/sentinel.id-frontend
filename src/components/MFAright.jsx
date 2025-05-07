@@ -7,7 +7,7 @@ function MultiFactorAuthenticationRight () {
     return (
     <>
         <div className = "MultiFactorAuthenticationRight">
-            <h1>BANAerferNA</h1>
+            <h1>You must be logged-in first to access this feature</h1>
 
 
         </div>
