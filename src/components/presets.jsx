@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import React, {useState} from 'react';
 import passwordicon from "../assets/password.svg";
-import mobileicon from "../assets/mobile.svg";
 import sendicon from "../assets/send.svg";
 import emailicon from "../assets/email.svg";
 import mfaicon from "../assets/mfa.svg";
@@ -10,7 +9,6 @@ import EmailAddressConfirmationRight from "./EACright";
 import PasswordResetRight from "./PRright";
 import SwitchEmailAddressRight from "./SWAright";
 import MultiFactorAuthenticationRight from "./MFAright";
-import MobileVerificationRight from "./MVright";
 
 
 
@@ -142,29 +140,7 @@ function Presets() {
                 {/*------------Line-Break-for-ease------------------*/}
 
 
-                    <div className="flexleft"
-                        style={{
-                            backgroundColor: toggle === 'mobileVerify'? 'rgb(146, 222, 255)' : 'rgb(39, 39, 39)'
-                        }}
-                        onClick = {() =>{
-                            setToggle('mobileVerify');
-                        }}  
-                    >
-
-                        <img src={mobileicon} alt="send icon" id="preseticon"
-                            style={{
-                                filter: toggle === 'mobileVerify'? 'brightness(0.5) sepia(100%) hue-rotate(230deg)' : ''
-                            }}
-                        />
-                        
-                    <div id="MobileVerification"                         
-                        style={{
-                            color: toggle === 'mobileVerify'?'rgb(46, 46, 156)' : 'rgb(189, 189, 189)'
-                        }}
-
-                        >
-                            Mobile Verification</div>
-                    </div>
+  
 
                 {/*------------Line-Break-for-ease------------------*/}
 
@@ -178,7 +154,6 @@ function Presets() {
                 {toggle === 'passwordReset' && <PasswordResetRight />}
                 {toggle === 'switchEmailAddress' && <SwitchEmailAddressRight />}
                 {toggle === 'mfa' && <MultiFactorAuthenticationRight />}
-                {toggle === 'mobileVerify' && <MobileVerificationRight />}
             </div>
 
         </div>
