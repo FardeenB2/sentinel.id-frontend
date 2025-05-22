@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from '../api/axios';
 
+//Registration and axios help comes from this video: https://youtu.be/brcHK3P6ChQ?si=X9WyhsUFwSf-CAE7 
 
 const usernameRqments = /^[a-zA-Z0-9]{4,30}$/;
 const passwordRqments = /^.{4,12}$/;

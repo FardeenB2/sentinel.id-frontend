@@ -12,6 +12,7 @@ import { useEffect } from 'react';
 
 function Login() {
 
+    //The following functions take help from this youtube video: https://youtu.be/X3qyxo_UTR4?si=e8_PXGtXQu47biJ7 
     //    const userReference = useRef();
         const navigateSuccess = useNavigate();
         const errorReference = useRef();
